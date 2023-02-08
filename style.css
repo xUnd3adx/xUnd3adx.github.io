@@ -6,7 +6,8 @@
 }
 
 body{
-    background:#3D3C3A;
+    background:#222222;
+    
     color: #fff;
 }
 
@@ -72,7 +73,28 @@ nav ul li a:hover{
 }
 
 #about .container{
-background-color:white;
+background-color:#1F1F1F;
 margin-top:40px;
+padding-top: 8vh ;
+padding-bottom: 8vh;
 
+}
+#about h5{
+    color:#EA3C12;
+}
+#about .btn{
+    border:2px solid white;
+    color:#EA3C12;
+    transition: all 0.3s ease-in-out;
+}
+#about .btn:hover{
+    color:white ;
+    background:#EA3C12;
+    border-color:#EA3C12;
+
+}
+
+#about img{
+    box-shadow: 0 20px 16px rgba(0,0,0,.40) ;
+    width: 50%;
 }
